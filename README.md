@@ -1,9 +1,9 @@
-# 🛡️ SpamGuard AI
+#  SpamGuard AI
 ### Spam Detection with Explainable AI
 
 SpamGuard AI is a machine-learning application that classifies text messages as **Spam** or **Not Spam**. It also provides word-level explanations to help users understand which words or phrases influence the model's prediction.
 
-## ✨ Features
+##  Features
 
 - Spam and legitimate message classification
 - Three machine-learning models compared during training
@@ -12,7 +12,7 @@ SpamGuard AI is a machine-learning application that classifies text messages as 
 - Interactive web interface built with Streamlit
 - Model evaluation using accuracy, precision, recall, and F1-score
 
-## 🧠 Machine Learning Models
+##  Machine Learning Models
 
 The project compares three classifiers:
 
@@ -36,7 +36,7 @@ Results from the current held-out test set:
 
 These metrics describe the current test set and may differ on unseen messages.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -46,7 +46,7 @@ These metrics describe the current test set and may differ on unseen messages.
 - TF-IDF vectorization
 - UCI SMS Spam Collection dataset
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 SpamGuardAI/
@@ -60,7 +60,7 @@ SpamGuardAI/
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
@@ -102,13 +102,13 @@ python -m streamlit run app.py
 
 Open the local URL displayed in your terminal.
 
-## 🔍 Explainable AI
+##  Explainable AI
 
 The application identifies words or phrases that lean toward a spam or legitimate classification using information from the trained classifier.
 
 The explanation method depends on the selected model. These indicators help interpret the prediction but do not prove that a particular word caused it.
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Evaluate performance on additional, unseen datasets
 - Improve handling of phishing links and suspicious URLs
