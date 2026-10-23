@@ -28,7 +28,7 @@ Results from the current held-out test set:
 
 | Model | Accuracy | Spam Precision | Spam Recall | Spam F1-score |
 |---|---:|---:|---:|---:|
-| Linear SVM | 98.12% | 92.84% | 91.94% | 92.88% |
+| Linear SVM | 98.12% | 93.84% | 91.95% | 92.88% |
 | Logistic Regression | 97.85% | 90.85% | 93.29% | 92.05% |
 | Naive Bayes | 96.23% | 100.00% | 71.81% | 83.59% |
 
@@ -65,11 +65,9 @@ SpamGuardAI/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/adrustav11/SpamGuardAI.git
 cd SpamGuardAI
 ```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your repository URL.
 
 ### 2. Create and activate a virtual environment
 
